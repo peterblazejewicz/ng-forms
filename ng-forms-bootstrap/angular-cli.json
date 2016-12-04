@@ -18,6 +18,7 @@
       "prefix": "frms",
       "mobile": false,
       "styles": [
+        "../node_modules/bootstrap/scss/bootstrap.scss",
         "styles.scss"
       ],
       "scripts": [],
