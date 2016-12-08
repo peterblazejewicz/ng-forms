@@ -7,7 +7,7 @@ import { Employee } from '../models/employee';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  formEnabled: boolean = true;
   languages = ['English', 'Spanish', 'Other'];
   model = new Employee('Darla', 'Smith', true);
 
